@@ -201,6 +201,19 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
    margin-bottom: 12px;
 }
+
+#about h3 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
+#about h4 {
+   font: 18px/26px 'opensans-bold', sans-serif;
+   color: #7A7A7A;
+   margin-bottom: 12px;
+}
+
 #about p {
    line-height: 30px;
    color: #7A7A7A;
@@ -213,7 +226,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
-   width: 58.33333%;
+   width: 100%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
