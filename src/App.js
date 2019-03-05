@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
+import Header from './components/header';
+import About from './components/about';
+import Resume from './components/resume';
+import Portfolio from './components/portfolio';
+import Contact from './components/contact';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,6 +14,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <About />
+        <Resume />
+        <Portfolio />
+        <Contact />
       </div>
     );
   }
