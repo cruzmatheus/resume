@@ -294,6 +294,23 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+#resume .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+
+#resume .prodiga-pic {
+   position: relative;
+   width: 220px;
+}
+
+#resume .pagseguro-pic {
+   position: relative;
+   width: 300px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
