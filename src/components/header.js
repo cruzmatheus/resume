@@ -12,7 +12,8 @@ export default class Header extends Component {
                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                         <li><a className="smoothscroll" href="#about">About</a></li>
                         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                        <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+                        <li><a className="smoothscroll" href="#skills">Skills</a></li>
+                        {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
                         <li><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul> {/* end #nav */}
                     </nav> {/* end #nav-wrap */}
@@ -22,11 +23,11 @@ export default class Header extends Component {
                         <h3>I'm a Java based <span>software engineer</span> and <span>web developer</span> creating reliable and
                             high quality software for companies of all sizes around the globe.</h3>
                         <hr />
-                        <ul className="social">
+                        {/* <ul className="social">
                             <li><a href="#"><i className="fa fa-linkedin" /></a></li>
                             <li><a href="#"><i className="fa fa-envelope" /></a></li>
                             <li><a href="#"><i className="fa fa-skype" /></a></li>
-                        </ul>
+                        </ul> */}
                         </div>
                     </div>
                     <p className="scrolldown">

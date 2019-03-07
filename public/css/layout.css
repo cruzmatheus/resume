@@ -251,7 +251,6 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
 }
 
@@ -315,6 +314,27 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+#skills {
+   background: #fff;
+   overflow: hidden;
+   padding-top: 60px;
+   padding-bottom: 72px;
+}
+
+#skills .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
 .bars {
 	width: 95%;
 	float: left;
@@ -355,33 +375,33 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
+.java {
+  	width: 85%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
+.spring {
+  	width: 75%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
+.jpa {
+  	width: 75%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
-  	width: 90%;
+.databases {
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
+.ruby {
+  	width: 40%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
+.tests {
+  	width: 67%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -819,7 +839,7 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
+   padding-top: 45px;
    padding-bottom: 102px;
    color: #636363;
 }
@@ -829,7 +849,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 26px/32px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -838,7 +858,7 @@ call-to-action .button {
 #contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
-   content: "\f0e0";
+   content: "";
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
@@ -930,6 +950,31 @@ call-to-action .button {
    top: 17px;
 }
 
+#contact .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#contact .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+#contact .social li a { color: #7A7A7A; }
+#contact .social li a:hover { color: #11ABB0; }
+
+#contact span {
+   color: #7A7A7A;
+   font-size: 20px;
+   padding-left: 20px;
+}
+
+#contact .div-social {
+   display: flex;
+   align-items: center;
+   padding-left: 50px;
+}
 
 /* Twitter Feed */
 #twitter {
