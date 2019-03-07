@@ -20,13 +20,13 @@ export default class About extends Component {
                             I'm specialized in Java technologies with it's main frameworks and relational databases.
                         </p>
                         <p>I enjoy working with people that were not afraid of working with the cutting edge technologies.</p>
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="columns download">
                             <p>
                                 <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
                             </p>
                             </div>
-                        </div> {/* end row */}
+                        </div> */}
                     </div> {/* end .main-col */}
                 </div>
                 </section> {/* About Section End*/}
